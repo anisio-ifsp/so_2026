@@ -5,6 +5,8 @@ int main(void) {
     size_t n_inicial = 3;
     size_t n_novo = 6;
 
+
+
     // 1. Alocação inicial com malloc
     int *vetor = (int *) malloc(n_inicial * sizeof(int));
     if (!vetor) return EXIT_FAILURE;
